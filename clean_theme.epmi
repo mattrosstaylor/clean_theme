@@ -20,18 +20,25 @@
           <filesize>106736</filesize>
         </file>
         <file>
+          <filename>themes/clean_theme/static/images/JISC.gif</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>8b22b0cc57804ec385051550817e4dc4</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>448</filesize>
+        </file>
+        <file>
           <filename>themes/clean_theme/static/style/auto/x_clean_theme.css</filename>
           <mime_type>inode/symlink</mime_type>
-          <hash>a83fe1f93dd3154b9397bceb9d80aad4</hash>
+          <hash>f82993f600273f12f60809d722898ad6</hash>
           <hash_type>MD5</hash_type>
-          <filesize>20475</filesize>
+          <filesize>21217</filesize>
         </file>
         <file>
           <filename>themes/clean_theme/templates/default.xml</filename>
           <mime_type>inode/symlink</mime_type>
-          <hash>4c10eb2906fede44608f5c0ea03e475d</hash>
+          <hash>28c51257f8964d05de70bd48ab270ea9</hash>
           <hash_type>MD5</hash_type>
-          <filesize>4478</filesize>
+          <filesize>3319</filesize>
         </file>
         <file>
           <filename>themes/clean_theme/templates/secure.xml</filename>
