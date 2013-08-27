@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE html SYSTEM "entities.dtd" > 
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
+<head>
+	<title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+	<script type="text/javascript">var rel_path = "";</script>
+	<epc:pin ref="login_status_header"/>
+	<script type="text/javascript" src="{$config{rel_path}}/javascript/auto.js"><!-- padder --></script>
+	<style type="text/css" media="screen">@import url(<epc:print expr="$config{rel_path}"/>/style/auto.css);</style>
+	<style type="text/css" media="print">@import url(<epc:print expr="$config{rel_path}"/>/style/print.css);</style>
+	<link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+	<link rel="Top" href="{$config{frontpage}}"/>
+	<link rel="Search" href="{$config{http_cgiurl}}/search"/>
+	<epc:pin ref="head"/>
+	<style type='text/css' media="screen">@import url(<epc:print expr="$config{rel_path}"/>/style/nojs.css);</style>
+	<script type="text/javascript" src="{$config{rel_path}}/javascript/jscss.js"><!-- padder --></script>
+	<!--[if IE 6]>
+	<style type='text/css'>@import url(/style/ie6.css);</style>
+	<![endif]-->
+	<meta name="google-site-verification" content="1xcCg_p9r4f_9HylIfim9171YkY2TV06KqPSCTQhkzs" />
+</head>
+<body>
+	<div id="clean_container">
+		<div id="clean_header">
+
+			<div id="clean_search">
+				<form method="get" action="{$config{rel_path}}/cgi/search/simple">
+					<input class="ed_topbar_search_text" type="text" name="q" value="Search..." onclick="if(this.value=='Search...')this.value='';return false;" />
+					<input value="Search" type="submit" name="_action_search" class="ed_topbar_search_button" /> 
+					<input type="hidden" name="_order" value="bytitle" />
+					<input type="hidden" name="basic_srchtype" value="ALL" />
+					<input type="hidden" name="_satisfyall" value="ALL" />
+					<input type="hidden" name="_default_action" value="search" />
+				</form>
+				<br/>
+				<a id="clean_search_link" href="{$config{rel_path}}/cgi/search/advanced">Advanced search</a>
+			</div>
+
+			<h1 id="clean_main_title">
+				<a href="{$config{frontpage}}"><epc:phrase ref="archive_name" /></a>
+			</h1>
+<!--			<ul class="clean_header_tools">
+				<li><a href="{$config{rel_path}}/view/">Browse</a></li>
+				<li><a href="{$config{rel_path}}/view/">Browse</a></li>
+			</ul> -->
+			<div class="clearer"> </div>
+		</div>
+		<div id="clean_tools">
+			<epc:pin ref="login_status"/>	
+		</div>
+
+		<div id="clean_content">
+			<h1 class="ed_page_title"><epc:pin ref="title" /></h1>
+
+			<epc:pin ref="page"/>
+		</div>
+
+	</div>
+	<div id="clean_footer">
+		<p>Copyright &copy; 2008-2013 University of Southampton</p>
+
+		<p><epc:phrase ref="archive_name"/> is powered by EdShare, an extension to <a href="http://eprints.org">EPrints</a>.</p>
+		<p><span style="margin-left:1em;">EdShare was produced by the <a href="http://www.edspace.ecs.soton.ac.uk/">EdSpace</a> and <a href="http://www.oneshare.ecs.soton.ac.uk/">OneShare</a> projects and </span><a href="http://www.jisc.ac.uk/" target="_blank"><img class="ed_footer_jisc" alt="JISC logo" src="{$config{rel_path}}/images/JISCcolour7.gif" border="0"/></a></p>
+
+	</div>
+</body>
+</html>
