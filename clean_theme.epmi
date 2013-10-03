@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://www.medshare.soton.ac.uk/id/epm/clean_theme'>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://lslvm-mrt5.ecs.soton.ac.uk/id/epm/clean_theme'>
   <epmid>clean_theme</epmid>
-  <uri>http://lslvm-mrt5b.ecs.soton.ac.uk/id/epm/clean_theme</uri>
+  <uri>http://www.medshare.soton.ac.uk/id/epm/clean_theme</uri>
   <documents>
     <document>
       <files>
@@ -29,9 +29,9 @@
         <file>
           <filename>themes/clean_theme/static/style/auto/x_clean_theme.css</filename>
           <mime_type>inode/symlink</mime_type>
-          <hash>37622dcce6e03cfe45b045f7611c76e3</hash>
+          <hash>efc1cd5ab2184d9de5ea96d8a9309536</hash>
           <hash_type>MD5</hash_type>
-          <filesize>21251</filesize>
+          <filesize>21248</filesize>
         </file>
         <file>
           <filename>themes/clean_theme/templates/default.xml</filename>

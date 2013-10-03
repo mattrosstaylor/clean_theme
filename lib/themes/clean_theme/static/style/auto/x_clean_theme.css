@@ -21,6 +21,9 @@ h1, h2 {
 	background: white;
 	border: 1px solid black;
 	margin-top: 12px;
+	-moz-box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+	box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
 #clean_content {
@@ -31,6 +34,7 @@ h1, h2 {
 	background: #006f96;
 	padding: 3px 12px;
 }
+
 #clean_footer {
 	margin: 12px;
 	text-align: center;

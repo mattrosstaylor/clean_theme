@@ -3,23 +3,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epc="http://eprints.org/ep3/control">
 <head>
-	<title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
-	<script type="text/javascript">var rel_path = "";</script>
-	<epc:pin ref="login_status_header"/>
-	<script type="text/javascript" src="{$config{rel_path}}/javascript/auto.js"><!-- padder --></script>
-	<style type="text/css" media="screen">@import url(<epc:print expr="$config{rel_path}"/>/style/auto.css);</style>
-	<style type="text/css" media="print">@import url(<epc:print expr="$config{rel_path}"/>/style/print.css);</style>
-	<link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
-	<link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
-	<link rel="Top" href="{$config{frontpage}}"/>
-	<link rel="Search" href="{$config{http_cgiurl}}/search"/>
-	<epc:pin ref="head"/>
-	<style type='text/css' media="screen">@import url(<epc:print expr="$config{rel_path}"/>/style/nojs.css);</style>
-	<script type="text/javascript" src="{$config{rel_path}}/javascript/jscss.js"><!-- padder --></script>
-	<!--[if IE 6]>
-	<style type='text/css'>@import url(/style/ie6.css);</style>
-	<![endif]-->
-	<meta name="google-site-verification" content="1xcCg_p9r4f_9HylIfim9171YkY2TV06KqPSCTQhkzs" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
+    <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
+    <epc:pin ref="head"/>
 </head>
 <body>
 	<div id="clean_container">
