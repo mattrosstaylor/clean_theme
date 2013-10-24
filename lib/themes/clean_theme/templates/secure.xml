@@ -22,7 +22,6 @@
 					<input type="hidden" name="_satisfyall" value="ALL" />
 					<input type="hidden" name="_default_action" value="search" />
 				</form>
-				<br/>
 				<a id="clean_search_link" href="{$config{rel_path}}/cgi/search/advanced">Advanced search</a>
 			</div>
 
