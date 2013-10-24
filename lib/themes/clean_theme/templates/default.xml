@@ -49,7 +49,7 @@
 		<p>Copyright &copy; 2008-2013 University of Southampton</p>
 
 		<p><epc:phrase ref="archive_name"/> is powered by EdShare, an extension to <a href="http://eprints.org">EPrints</a>.</p>
-		<p><span style="margin-left:1em;">EdShare was produced by the <a href="http://www.edspace.ecs.soton.ac.uk/">EdSpace</a> and <a href="http://www.oneshare.ecs.soton.ac.uk/">OneShare</a> projects and </span><a href="http://www.jisc.ac.uk/" target="_blank"><img class="clean_footer_jisc" alt="JISC" src="{$config{rel_path}}/images/JISC.gif" border="0"/></a></p>
+		<p><span style="margin-left:1em;">EdShare was produced by the <a href="http://www.edspace.ecs.soton.ac.uk/">EdSpace</a> and <a href="http://www.oneshare.ecs.soton.ac.uk/">OneShare</a> projects and </span><a href="http://www.jisc.ac.uk/" target="_blank"><img class="clean_footer_jisc" alt="JISC" src="{$config{rel_path}}/images/jisc.png" border="0"/></a></p>
 
 	</div>
 </body>
