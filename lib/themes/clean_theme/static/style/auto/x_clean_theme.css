@@ -91,10 +91,48 @@ h1, h2 {
 	height: 25px;
 }
 
-/* remove gradient from messages */
+/* remove gradients from everything - gradients suck */
 .ep_msg_message_content, .ep_msg_warning_content, .ep_msg_error_content {
 	background-image: none;
 	border-color: black;
+}
+
+.ep_tab_panel {
+	background-image: none;
+	background-color: #ececec;
+}
+
+.ep_tab_bar li.ep_tab_selected a {
+	background-color: #ececec;
+}
+
+.ep_tab_bar li a {
+	background-image: none;
+	background-color: #c4caf2;
+}
+
+.ep_sr_title_bar {
+	background-image: none;
+	border-color: #c4caf2;
+	background-color: #ececec !important;
+	padding: 7px !important;
+}
+
+.ep_sr_content {
+	background-image: none;
+	background-color: #ececec;
+	border-color: #c4caf2;
+}
+
+.ep_upload_doc {
+	background-image: none;
+	background-color: #ececec;
+	border-color: #c4caf2;
+}
+
+.ep_search_buttons {
+	border: none;
+	background: none;
 }
 
 /*
