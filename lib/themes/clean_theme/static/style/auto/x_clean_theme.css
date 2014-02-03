@@ -91,6 +91,11 @@ h1, h2 {
 	height: 25px;
 }
 
+/* remove gradient from messages */
+.ep_msg_message_content, .ep_msg_warning_content, .ep_msg_error_content {
+	background-image: none;
+	border-color: black;
+}
 
 /*
 p.ep_cs_current_header
