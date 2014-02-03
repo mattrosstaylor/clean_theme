@@ -97,6 +97,16 @@ h1, h2 {
 	border-color: black;
 }
 
+.ep_msg_message_content {
+	background: #b0e6b0;
+}
+.ep_msg_warning_content {
+	background: #ffe0a0;
+}
+.ep_msg_error_content {
+	background: #e6b0b0;
+}
+
 .ep_tab_panel {
 	background-image: none;
 	background-color: #ececec;
