@@ -7,7 +7,7 @@
     <title><epc:pin ref="title" textonly="yes"/> - <epc:phrase ref="archive_name"/></title>
     <link rel="icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
     <link rel="shortcut icon" href="{$config{rel_path}}/favicon.ico" type="image/x-icon"/>
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'/>
     <epc:pin ref="head"/>
 </head>
 <body style="font-family: 'Ubuntu', sans-serif;">
@@ -16,14 +16,11 @@
 			<h1 id="clean_main_title">
 				<a href="{$config{frontpage}}"><epc:phrase ref="archive_name" /></a>
 			</h1>
-			<div id="clean_tools">
-				<epc:pin ref="login_status"/>	
-			</div>
 
 			<div id="clean_search">
 				<form method="get" action="{$config{rel_path}}/cgi/search/simple">
-					<input class="ed_topbar_search_text" type="text" name="q" value="Search..." onclick="if(this.value=='Search...')this.value='';return false;" />
-					<input value="Search" type="submit" name="_action_search" class="ed_topbar_search_button" /> 
+					<input id="clean_search_text" type="text" name="q" placeholder="Search" />
+					<input id="clean_search_button" value="Search" type="submit" name="_action_search" /> 
 					<input type="hidden" name="_order" value="bytitle" />
 					<input type="hidden" name="basic_srchtype" value="ALL" />
 					<input type="hidden" name="_satisfyall" value="ALL" />
@@ -31,8 +28,11 @@
 				</form>
 			</div>
 
-			<a id="clean_search_link" href="{$config{rel_path}}/cgi/search/advanced">Advanced search</a>
-			<div class="clearer"> </div>
+			<a id="clean_search_advanced" href="{$config{rel_path}}/cgi/search/advanced">Advanced Search</a>
+
+			<div id="clean_tools">
+				<epc:pin ref="login_status"/>	
+			</div>
 		</div>
 
 		<div id="clean_content">
@@ -43,11 +43,11 @@
 
 	</div>
 	<div id="clean_footer">
-		<p>Copyright &copy; 2008-2013 University of Southampton</p>
+		<p>Copyright &copy; 2014 University of Southampton</p>
 
-		<p><epc:phrase ref="archive_name"/> is powered by EdShare, an extension to <a href="http://eprints.org">EPrints</a>.</p>
+<!--		<p><epc:phrase ref="archive_name"/> is powered by EdShare, an extension to <a href="http://eprints.org">EPrints</a>.</p>
 		<p><span style="margin-left:1em;">EdShare was produced by the <a href="http://www.edspace.ecs.soton.ac.uk/">EdSpace</a> and <a href="http://www.oneshare.ecs.soton.ac.uk/">OneShare</a> projects and </span><a href="http://www.jisc.ac.uk/" target="_blank"><img class="clean_footer_jisc" alt="JISC" src="{$config{rel_path}}/images/jisc.png" border="0"/></a></p>
-
+-->
 	</div>
 </body>
 </html>
