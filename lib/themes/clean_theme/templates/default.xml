@@ -36,9 +36,11 @@
 		</div>
 
 		<div id="clean_content">
-			<h1 class="edshare_page_title"><epc:pin ref="title" /></h1>
+			<div id="clean_content_inner">
+				<h1 class="edshare_page_title"><epc:pin ref="title" /></h1>
 
-			<epc:pin ref="page"/>
+				<epc:pin ref="page"/>
+			</div>
 		</div>
 
 	</div>
